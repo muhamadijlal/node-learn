@@ -1,0 +1,22 @@
+{
+    "name": "03-npm-package",
+    "version": "1.0.0",
+    "description": "",
+    "main": "latihan.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node latihan.js",
+        "greet": "node latihan.js --greet",
+        "dev": "nodemon latihan.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "chalk": "^5.6.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
