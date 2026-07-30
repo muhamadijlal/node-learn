@@ -15,10 +15,10 @@ console.log(buf.toString()); // 'halo'
 
 ## 4 Jenis Stream
 
-- **Readable** — sumber data (mis. `fs.createReadStream`)
-- **Writable** — tujuan data (mis. `fs.createWriteStream`)
-- **Duplex** — bisa dibaca & ditulis (mis. TCP socket)
-- **Transform** — Duplex yang mengubah data saat lewat (mis. compress, encrypt)
+- **Readable** — sumber data (misal. `fs.createReadStream`)
+- **Writable** — tujuan data (misal. `fs.createWriteStream`)
+- **Duplex** — bisa dibaca & ditulis (misal. TCP socket)
+- **Transform** — Duplex yang mengubah data saat lewat (misal. compress, encrypt)
 
 ## Baca file besar dengan Readable Stream
 
